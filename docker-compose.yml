@@ -1,0 +1,7 @@
+services:
+  gcc:
+    image: "gcc:latest"
+    volumes:
+      - .:/code
+    working_dir: /code
+    command: 'sleep infinity'
